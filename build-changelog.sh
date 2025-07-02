@@ -6,7 +6,7 @@ set -e
 OUTPUT_FILE="$(mktemp)"
 
 # All the repos of which changes land in the release
-REPOS="ps2dev ps2sdk ps2toolchain ps2sdk-ports gsKit ps2-packer ps2client"
+REPOS="ps2dev ps2sdk ps2toolchain-dvp ps2toolchain-iop ps2toolchain-ee ps2toolchain ps2sdk-ports gsKit ps2-packer ps2client"
 
 # Get the timestamp and name of the latest release of pspdev/pspdev
 LAST_RELEASE="$(curl -sfL \
